@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,19 @@
 		3DB81F9C23BC01D200853EA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB81F9A23BC01D200853EA4 /* Main.storyboard */; };
 		3DB81F9E23BC01D400853EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB81F9D23BC01D400853EA4 /* Assets.xcassets */; };
 		3DB81FA123BC01D400853EA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB81F9F23BC01D400853EA4 /* LaunchScreen.storyboard */; };
+		3DB81FAA23BC02A500853EA4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3DB81FA923BC02A500853EA4 /* Alamofire */; };
+		3DB81FAD23BC031C00853EA4 /* DownloadManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB81FAC23BC031C00853EA4 /* DownloadManger.swift */; };
+		3DB81FB423BC041000853EA4 /* Download.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DB81FB223BC041000853EA4 /* Download.xcdatamodeld */; };
+		3DB81FB723BC04AB00853EA4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB81FB623BC04AB00853EA4 /* Constants.swift */; };
+		3DB81FBA23BC04FC00853EA4 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB81FB923BC04FC00853EA4 /* String+Extensions.swift */; };
+		3DB81FBC23BC057400853EA4 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB81FBB23BC057400853EA4 /* URL+Extensions.swift */; };
+		3DB81FBE23BC05CA00853EA4 /* PDFDocument+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB81FBD23BC05CA00853EA4 /* PDFDocument+Extensions.swift */; };
+		3DB81FC023BC060700853EA4 /* UInt64+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB81FBF23BC060700853EA4 /* UInt64+Extensions.swift */; };
+		3DB81FC323BC076800853EA4 /* AVURLAsset+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB81FC223BC076800853EA4 /* AVURLAsset+Extensions.swift */; };
+		3DB81FC723BC0A6A00853EA4 /* DownloadItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB81FC623BC0A6A00853EA4 /* DownloadItemCell.swift */; };
+		3DB81FC923BC0A9D00853EA4 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB81FC823BC0A9D00853EA4 /* UIView+Extensions.swift */; };
+		3DB81FCC23BC0BE400853EA4 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 3DB81FCB23BC0BE400853EA4 /* SDWebImage */; };
+		3DB81FCE23BC0C3B00853EA4 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB81FCD23BC0C3B00853EA4 /* Date+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,17 @@
 		3DB81F9D23BC01D400853EA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DB81FA023BC01D400853EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DB81FA223BC01D400853EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB81FAC23BC031C00853EA4 /* DownloadManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadManger.swift; sourceTree = "<group>"; };
+		3DB81FB323BC041000853EA4 /* Download.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Download.xcdatamodel; sourceTree = "<group>"; };
+		3DB81FB623BC04AB00853EA4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3DB81FB923BC04FC00853EA4 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		3DB81FBB23BC057400853EA4 /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		3DB81FBD23BC05CA00853EA4 /* PDFDocument+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PDFDocument+Extensions.swift"; sourceTree = "<group>"; };
+		3DB81FBF23BC060700853EA4 /* UInt64+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UInt64+Extensions.swift"; sourceTree = "<group>"; };
+		3DB81FC223BC076800853EA4 /* AVURLAsset+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVURLAsset+Extensions.swift"; sourceTree = "<group>"; };
+		3DB81FC623BC0A6A00853EA4 /* DownloadItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadItemCell.swift; sourceTree = "<group>"; };
+		3DB81FC823BC0A9D00853EA4 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		3DB81FCD23BC0C3B00853EA4 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB81FCC23BC0BE400853EA4 /* SDWebImage in Frameworks */,
+				3DB81FAA23BC02A500853EA4 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +82,98 @@
 		3DB81F9323BC01D200853EA4 /* Download App */ = {
 			isa = PBXGroup;
 			children = (
+				3DB81FA223BC01D400853EA4 /* Info.plist */,
+				3DB81FAE23BC032000853EA4 /* App */,
+				3DB81FB523BC04A200853EA4 /* Helper */,
+				3DB81FC423BC0A3800853EA4 /* Views */,
+				3DB81FB123BC03D200853EA4 /* CoreData */,
+				3DB81FAB23BC030F00853EA4 /* DownloadManger */,
+				3DB81FAF23BC032D00853EA4 /* ViewsControllers */,
+				3DB81FB023BC033C00853EA4 /* Assets */,
+			);
+			path = "Download App";
+			sourceTree = "<group>";
+		};
+		3DB81FAB23BC030F00853EA4 /* DownloadManger */ = {
+			isa = PBXGroup;
+			children = (
+				3DB81FAC23BC031C00853EA4 /* DownloadManger.swift */,
+			);
+			path = DownloadManger;
+			sourceTree = "<group>";
+		};
+		3DB81FAE23BC032000853EA4 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				3DB81F9423BC01D200853EA4 /* AppDelegate.swift */,
 				3DB81F9623BC01D200853EA4 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3DB81FAF23BC032D00853EA4 /* ViewsControllers */ = {
+			isa = PBXGroup;
+			children = (
 				3DB81F9823BC01D200853EA4 /* ViewController.swift */,
+			);
+			path = ViewsControllers;
+			sourceTree = "<group>";
+		};
+		3DB81FB023BC033C00853EA4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
 				3DB81F9A23BC01D200853EA4 /* Main.storyboard */,
 				3DB81F9D23BC01D400853EA4 /* Assets.xcassets */,
 				3DB81F9F23BC01D400853EA4 /* LaunchScreen.storyboard */,
-				3DB81FA223BC01D400853EA4 /* Info.plist */,
 			);
-			path = "Download App";
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		3DB81FB123BC03D200853EA4 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3DB81FB223BC041000853EA4 /* Download.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		3DB81FB523BC04A200853EA4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				3DB81FB823BC04E600853EA4 /* Extensions */,
+				3DB81FB623BC04AB00853EA4 /* Constants.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		3DB81FB823BC04E600853EA4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3DB81FB923BC04FC00853EA4 /* String+Extensions.swift */,
+				3DB81FBB23BC057400853EA4 /* URL+Extensions.swift */,
+				3DB81FBD23BC05CA00853EA4 /* PDFDocument+Extensions.swift */,
+				3DB81FBF23BC060700853EA4 /* UInt64+Extensions.swift */,
+				3DB81FC223BC076800853EA4 /* AVURLAsset+Extensions.swift */,
+				3DB81FC823BC0A9D00853EA4 /* UIView+Extensions.swift */,
+				3DB81FCD23BC0C3B00853EA4 /* Date+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3DB81FC423BC0A3800853EA4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3DB81FC523BC0A3F00853EA4 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3DB81FC523BC0A3F00853EA4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3DB81FC623BC0A6A00853EA4 /* DownloadItemCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +192,10 @@
 			dependencies = (
 			);
 			name = "Download App";
+			packageProductDependencies = (
+				3DB81FA923BC02A500853EA4 /* Alamofire */,
+				3DB81FCB23BC0BE400853EA4 /* SDWebImage */,
+			);
 			productName = "Download App";
 			productReference = 3DB81F9123BC01D200853EA4 /* Download App.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +224,10 @@
 				Base,
 			);
 			mainGroup = 3DB81F8823BC01D200853EA4;
+			packageReferences = (
+				3DB81FA823BC02A500853EA4 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				3DB81FCA23BC0BE400853EA4 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 3DB81F9223BC01D200853EA4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +255,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB81FBA23BC04FC00853EA4 /* String+Extensions.swift in Sources */,
+				3DB81FC023BC060700853EA4 /* UInt64+Extensions.swift in Sources */,
 				3DB81F9923BC01D200853EA4 /* ViewController.swift in Sources */,
+				3DB81FAD23BC031C00853EA4 /* DownloadManger.swift in Sources */,
+				3DB81FC723BC0A6A00853EA4 /* DownloadItemCell.swift in Sources */,
+				3DB81FC923BC0A9D00853EA4 /* UIView+Extensions.swift in Sources */,
 				3DB81F9523BC01D200853EA4 /* AppDelegate.swift in Sources */,
+				3DB81FBE23BC05CA00853EA4 /* PDFDocument+Extensions.swift in Sources */,
 				3DB81F9723BC01D200853EA4 /* SceneDelegate.swift in Sources */,
+				3DB81FCE23BC0C3B00853EA4 /* Date+Extensions.swift in Sources */,
+				3DB81FC323BC076800853EA4 /* AVURLAsset+Extensions.swift in Sources */,
+				3DB81FBC23BC057400853EA4 /* URL+Extensions.swift in Sources */,
+				3DB81FB423BC041000853EA4 /* Download.xcdatamodeld in Sources */,
+				3DB81FB723BC04AB00853EA4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +466,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3DB81FA823BC02A500853EA4 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.9.1;
+			};
+		};
+		3DB81FCA23BC0BE400853EA4 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3DB81FA923BC02A500853EA4 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DB81FA823BC02A500853EA4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		3DB81FCB23BC0BE400853EA4 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DB81FCA23BC0BE400853EA4 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		3DB81FB223BC041000853EA4 /* Download.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3DB81FB323BC041000853EA4 /* Download.xcdatamodel */,
+			);
+			currentVersion = 3DB81FB323BC041000853EA4 /* Download.xcdatamodel */;
+			path = Download.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3DB81F8923BC01D200853EA4 /* Project object */;
 }
